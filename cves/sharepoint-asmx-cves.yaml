@@ -1,0 +1,23 @@
+id: sharepoint-asmx-cves
+
+info:
+  name: SharePoint Exposed ASMX Services (CVE PoC)
+  author: rascyber
+  severity: high
+  tags: cve,sharepoint,asmx,exposure
+
+requests:
+  - method: GET
+    path:
+      - "{{BaseURL}}/_vti_bin/webs.asmx"
+      - "{{BaseURL}}/_vti_bin/lists.asmx"
+      - "{{BaseURL}}/_vti_bin/permissions.asmx"
+    headers:
+      User-Agent: Mozilla/5.0
+      X-HackerOne-Research: rascyber
+    matchers:
+      - type: word
+        part: body
+        words:
+          - "<wsdl:definitions"
+          - "targetNamespace"

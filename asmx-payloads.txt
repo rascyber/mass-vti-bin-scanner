@@ -1,0 +1,11 @@
+webs.asmx
+lists.asmx
+permissions.asmx
+sitedata.asmx
+sites.asmx
+users.asmx
+usergroup.asmx
+dspsts.asmx
+views.asmx
+versions.asmx
+workflow.asmx
