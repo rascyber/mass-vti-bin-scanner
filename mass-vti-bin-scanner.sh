@@ -1,6 +1,6 @@
 #!/bin/bash
 # mass-vti-bin-scanner.sh
-# Author: @rascyber (Genie)
+# Author: @rascyber
 # Description: Mass-scan for _vti_bin/*.asmx endpoints across subdomains
 # Usage: ./mass-vti-bin-scanner.sh subs.txt > vti_endpoints_found.txt
 
