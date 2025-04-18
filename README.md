@@ -22,8 +22,8 @@ chmod +x mass-vti-bin-scanner.sh
 
 ## PoC Detection Output
 ```
-[+] Found: https://partners.mtn.co.za/_vti_bin/webs.asmx
-[+] Found: https://www.mtnbusiness.co.za/_vti_bin/permissions.asmx
+[+] Found: https://XXXXXXXX/_vti_bin/webs.asmx
+[+] Found: https://XXXXXXXX/_vti_bin/permissions.asmx
 ```
 
 ## Nuclei PoC Template
